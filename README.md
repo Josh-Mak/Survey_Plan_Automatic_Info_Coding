@@ -8,6 +8,9 @@ A program which automatically records information from survey plans onto a .csv 
      - Get poppler here: https://github.com/oschwartz10612/poppler-windows/releases/
 
      - A newer version of poppler could be used, all that needs to change is the poppler_path argument on line 59 and 69 of main.py.
+    
+       ![image](https://github.com/Josh-Mak/Survey_Plan_Automatic_Info_Coding/assets/152421096/952a3495-553a-4110-9509-67ad64b95447)
+       
 
 **Intro**: This program is a quickly made prototype for a land survey company to help automatically code information from survey plans onto a .csv file. It served as a great introduction to using the OpenAI API and produts in development for me.
 
