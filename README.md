@@ -4,8 +4,10 @@ A program which automatically records information from survey plans onto a .csv 
 **Important Notes**:
   1. In order for the program to work, it needs an OpenAI API key with access to both gpt-4-vision-preview and gpt-4-1106-preview.
   2. The program uses poppler for pdf to image conversions. **Poppler 23.11.0** must be extracted to the working directory.
-    - Get poppler here: https://github.com/oschwartz10612/poppler-windows/releases/
-    - A newer version of poppler could be used, all that needs to change is the poppler_path argument on line 59 and 69 of main.py.
+
+     - Get poppler here: https://github.com/oschwartz10612/poppler-windows/releases/
+
+     - A newer version of poppler could be used, all that needs to change is the poppler_path argument on line 59 and 69 of main.py.
 
 **Intro**: This program is a quickly made prototype for a land survey company to help automatically code information from survey plans onto a .csv file. It served as a great introduction to using the OpenAI API and produts in development for me.
 
@@ -17,5 +19,7 @@ A program which automatically records information from survey plans onto a .csv 
   5. The JSON is converted to a .csv and saved for the user.
 
 **Future Improvements**: As stated earlier this is a simple prototype, and the main challenge for future improvement comes in accuracy. Currently the program is ~80% accurate. It *should* be able to reach ~99% accuracy with increased examples for the AI to pull from and checking answers against databases for things like township/municipality. Getting it to 100% accuracy will be the real challenge. Other than that there are a few needed improvements:
+ 
   - The #1 thing that this program needs and that I would do next is to add a simple UI to let the user know what is going on behind the scenes. Right now without explicit instructions it simply does not give you enough information to know what to do.  
+  
   - The program would benefit from more user control about what stages of the program happen when. For example, giving the user an option to upload files and crop out the regions of interest, but not run the analysis until a later time.
