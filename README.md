@@ -1,6 +1,12 @@
 # Survey_Plan_Automatic_Info_Coding
 A program which automatically records information from survey plans onto a .csv using AI.
 
+**Important Notes**:
+  1. In order for the program to work, it needs an OpenAI API key with access to both gpt-4-vision-preview and gpt-4-1106-preview.
+  2. The program uses poppler for pdf to image conversions. **Poppler 23.11.0** must be extracted to the working directory.
+    - Get poppler here: https://github.com/oschwartz10612/poppler-windows/releases/
+    - A newer version of poppler could be used, all that needs to change is the poppler_path argument on line 59 and 69 of main.py.
+
 **Intro**: This program is a quickly made prototype for a land survey company to help automatically code information from survey plans onto a .csv file. It served as a great introduction to using the OpenAI API and produts in development for me.
 
 **Technical Overview**: This program relies heavily on AI from OpenAI to analyze the plans. Here's a breakdown of how it works:
