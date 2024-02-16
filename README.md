@@ -12,7 +12,7 @@ A program which automatically records information from survey plans onto a .csv 
        ![image](https://github.com/Josh-Mak/Survey_Plan_Automatic_Info_Coding/assets/152421096/952a3495-553a-4110-9509-67ad64b95447)
        
 
-**Intro**: This program is a quickly made prototype for a land survey company to help automatically code information from survey plans onto a .csv file. It served as a great introduction to using the OpenAI API and produts in development for me.
+**Intro**: This program is a quickly made prototype for a land survey company to help automatically code information from survey plans onto a .csv file. It served as a great introduction to using the OpenAI API and products in development for me.
 
 **Technical Overview**: This program relies heavily on AI from OpenAI to analyze the plans. Here's a breakdown of how it works:
   1. The program takes all of the files uploaded by the user and transforms them to .png's or .jpg's if they are not already in image format.
